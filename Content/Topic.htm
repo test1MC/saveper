@@ -4,42 +4,41 @@
         <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>Topic Title</h1>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>testv</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>vDelete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>Delete this text and replace it with your own content.</p>
-        <p>test</p>
-        <p>&#160;</p>
-        <p>&#160;</p>
+        <h3>Kingsley BookDrop Interface</h3>
+        <p>The software supports an interface to a Kingsley BookDrop hardware. The Kingsley BookDrop is a simple, mechanical item return box, which can be locked or unlocked. This function is meant as an emergency return option in cases where the application software is unable to perform its function (for example, if the LMS is unavailable or another vital hardware element such as the RFID reader is out of service). In such a case the machine controller will open a "Kingsley BookDrop" as an "emergency" return option to the patrons.</p>
+        <p style="text-align: center;">
+            <img src="images/Kingsley bookDrop Interface 10.png" style="width: 40mm;" />
+        </p>
+        <p>In normal operation, the application will answer the "Idle" messages sent aprox. every 10s by the machine software with the respective acknowledgement. In case the Bibliotheca-SW has a problem &amp; cannot provide return services anymore, it will cease to answer those messages. This will inform the machine, that all items inserted into the unit must be rejected immediately and that the drop must be opened. In this scenario the machine software will continue to send the idle messages to the application; once the problem has gone, those messages will be answered again &amp; the system will return to normal operation mode.</p>
+        <p>No configuration is required to support this option - the default as configured in "backend.io.output" must not be changed.</p>
+        <blockquote style="background-color: #dcdcdc;">
+            <p>backend.io.output - Contains system specific rules related to the door configuration of the installation.</p>
+        </blockquote>
+        <p>Sample contents of the backend.io.output config key:</p>
+        <table style="width: 100%;">
+            <col />
+            <tbody>
+                <tr>
+                    <td>
+                        <p>&lt;XMLConfigurationStruct&gt;</p>
+                        <p>&lt;Key&gt;backend.io.output&lt;/Key&gt;</p>
+                        <p>&lt;Value&gt;</p>
+                        <p>&amp;lt;?xml version="1.0" encoding="utf-8"?&amp;gt;</p>
+                        <p>&amp;lt;string&amp;gt;</p>
+                        <p>[OutOfOrder]</p>
+                        <p>gilgen.drop = 0x01</p>
+                        <p>[NormalOperation]</p>
+                        <p>gilgen.drop = 0x00</p>
+                        <p>[OpenCapellaServiceDoor]</p>
+                        <p>gilgen.serviceDoor = 0x01</p>
+                        <p>[CloseCapellaServiceDoor]</p>
+                        <p>gilgen.serviceDoor = 0x00</p>
+                        <p>&amp;lt;/string&amp;gt;</p>
+                        <p>&lt;/Value&gt;</p>
+                        <p>&lt;/XMLConfigurationStruct&gt;</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
