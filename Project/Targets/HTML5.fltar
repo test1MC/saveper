@@ -2,10 +2,9 @@
 <CatapultTarget
   Version="2"
   Comment="MadCap HTML5 Target"
-  Type="WebHelp2"
+  Type="WebHelp"
   Destinations=""
-  GlossaryTermConversion="marked"
-  Skin="/Project/Skins/tripane.flskn">
+  GlossaryTermConversion="marked">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
