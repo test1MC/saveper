@@ -16,7 +16,22 @@
   UseDefaultBrowserSetup="True"
   EnableResponsiveOutput="True"
   AutoSyncTOC="true">
-  <Stylesheet />
+  <Stylesheet>
+    <Styles>
+      <Style
+        Name="Navigation Panel">
+        <Classes>
+          <StyleClass
+            Name="TOC">
+            <Properties>
+              <Property
+                Name="ClosedBookIcon">none</Property>
+            </Properties>
+          </StyleClass>
+        </Classes>
+      </Style>
+    </Styles>
+  </Stylesheet>
   <WebHelpOptions />
   <Strings />
 </CatapultSkin>
