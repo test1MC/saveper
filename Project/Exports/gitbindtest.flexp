@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultExportProjectFile
+  DestinationType="ManualSelection"
+  SourceProjectPath="C:\Users\lbalababa\Documents\My Projects\gitbind\gitbind.flprj"
+  DestinationName="gitbindtest"
+  DestinationPath="C:\Users\lbalababa\Documents\My Project Exports\2"
+  ExportType="Files"
+  TargetConvertVariables="false"
+  TargetConvertSnippets="false">
+  <SelectedContentFiles>
+    <Url
+      Source="Resources" />
+    <Url
+      Source="Resources/PageLayouts" />
+    <Url
+      Source="Resources/PageLayouts/Default.flpgl" />
+    <Url
+      Source="Resources/Stylesheets" />
+    <Url
+      Source="Resources/Stylesheets/Modern.css" />
+    <Url
+      Source="Resources/Stylesheets/Styles.css" />
+    <Url
+      Source="index.htm" />
+    <Url
+      Source="Topic.htm" />
+  </SelectedContentFiles>
+  <SelectedProjectFiles>
+    <Url
+      Source="Advanced" />
+    <Url
+      Source="Advanced/Auto Index Sets" />
+    <Url
+      Source="Advanced/Auto Index Sets/AutoIndexSet.flaix" />
+    <Url
+      Source="Advanced/Auto Suggestion Sets" />
+    <Url
+      Source="Advanced/Auto Suggestion Sets/AutoSuggestionSet.fltbx" />
+    <Url
+      Source="Advanced/Browse Sequences" />
+    <Url
+      Source="Advanced/Browse Sequences/BrowseSequence.flbrs" />
+    <Url
+      Source="Advanced/CSH" />
+    <Url
+      Source="Advanced/CSH/AliasFile.flali" />
+    <Url
+      Source="Advanced/CSH/HeaderFile.h" />
+    <Url
+      Source="Advanced/File Tags" />
+    <Url
+      Source="Advanced/File Tags/FileTagSetAuthor.flfts" />
+    <Url
+      Source="Advanced/File Tags/FileTagSetStatus.flfts" />
+    <Url
+      Source="Advanced/Index Link Sets" />
+    <Url
+      Source="Advanced/Index Link Sets/IndexLinkSet.flixl" />
+    <Url
+      Source="Advanced/Relationship Tables" />
+    <Url
+      Source="Advanced/Relationship Tables/RelationshipTable.flrtb" />
+    <Url
+      Source="Advanced/Search Filters" />
+    <Url
+      Source="Advanced/Search Filters/SearchFilter.flsfs" />
+    <Url
+      Source="Advanced/Synonyms" />
+    <Url
+      Source="Advanced/Synonyms/Synonyms.mcsyns" />
+    <Url
+      Source="ConditionTagSets" />
+    <Url
+      Source="ConditionTagSets/Default.flcts" />
+    <Url
+      Source="Destinations" />
+    <Url
+      Source="Destinations/Destination.fldes" />
+    <Url
+      Source="Exports" />
+    <Url
+      Source="Glossaries" />
+    <Url
+      Source="Glossaries/Glossary.flglo" />
+    <Url
+      Source="Imports" />
+    <Url
+      Source="Reports" />
+    <Url
+      Source="Reports/Critical Issues Report.flrep" />
+    <Url
+      Source="Reports/Empty Report.flrep" />
+    <Url
+      Source="Reports/Unused Items Report.flrep" />
+    <Url
+      Source="Skins" />
+    <Url
+      Source="Skins/Default.flskn" />
+    <Url
+      Source="Skins/HTML5 - Side Navigation.flskn" />
+    <Url
+      Source="Skins/HTML5 - Top Navigation.flskn" />
+    <Url
+      Source="Skins/tripane.flskn" />
+    <Url
+      Source="Targets" />
+    <Url
+      Source="Targets/HTML5.fltar" />
+    <Url
+      Source="TOCs" />
+    <Url
+      Source="TOCs/Master.fltoc" />
+    <Url
+      Source="VariableSets" />
+    <Url
+      Source="VariableSets/Variables.flvar" />
+  </SelectedProjectFiles>
+</CatapultExportProjectFile>

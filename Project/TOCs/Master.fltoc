@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-
-	<TocEntry Title="[%=System.LinkedTitle%]" Link="/Content/Topic.htm"/>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Topic.htm"></TocEntry>
+  <TocEntry
+    Title="New entry"
+    Link="../../../tripaneCheck/tripaneCheck.flprj#HTML5"
+    AbsoluteLink="file:///C:/Users/lbalababa/Documents/My Projects/tripaneCheck/tripaneCheck.flprj#HTML5" />
 </CatapultToc>
