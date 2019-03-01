@@ -4,7 +4,8 @@
   Comment="MadCap HTML5 Target"
   Type="WebHelp2"
   Destinations=""
-  GlossaryTermConversion="marked">
+  GlossaryTermConversion="marked"
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     GenerateTOCProxy="true"
